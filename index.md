@@ -1,20 +1,24 @@
 I am a PhD student in Economics at Bocconi University, Milan.
 
-### Curriculum Vitae
+## Contacts
+Email: andrea.pasqualini@phd.unibocconi.it
+Phone: (+39) 02 5836 5192
+
+## Curriculum Vitae
 You can find my CV here.
 
-### Research
+## Research
 
-#### Publications
+### Publications
 
-#### Working Papers
+### Working Papers
 
-#### Projects
+### Projects
 My research interests essentially lie at the intersection between Macroeconomics and Econometrics.
 
-### Teaching
+## Teaching
 Period              | Course                      | Level | University
---------------------|-----------------------------|-------|-------------------------------
+--------------------|-----------------------------|-------|-----------
 Feb 2017 - Present  | Introductory Macroeconomics | B.Sc. | Bocconi University, Milan
 Sep 2016 - Jan 2017 | Monetary Economics          | B.Sc. | Bocconi University, Milan
 Sep 2016 - Jan 2017 | Economic Policy             | B.Sc. | Bocconi University, Milan
@@ -23,4 +27,4 @@ Sep 2014 - Jan 2015 | Introductory Mathematics    | B.Sc. | Ca' Foscari Universi
 Aug 2013 - Jan 2014 | Advanced Mathematics        | M.Sc. | Ca' Foscari University, Venice
 Apr 2013 - Sep 2013 | Introductory Mathematics    | B.Sc. | Ca' Foscari University, Venice
 
-### References
+## References
