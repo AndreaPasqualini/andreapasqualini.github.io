@@ -31,6 +31,7 @@ My research interests essentially lie at the intersection between Macroeconomics
 * PyEcon (see on GitHub soon)
 
 ## Teaching
+
 | Period              | Course                      | Level | University                     |
 | --------------------|-----------------------------|-------|------------------------------- |
 | Feb 2017 - Present  | Introductory Macroeconomics | B.Sc. | Bocconi University, Milan      |
