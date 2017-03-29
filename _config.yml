@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
-title: Andrea Pasqualini
-description: Welcome to my personal webpage! Here you can keep up with my professional life, as well as my coding exercises.
+# Title stuff
+  theme: jekyll-theme-minimal
+  title: Andrea Pasqualini
+  description: Welcome to my personal webpage! Here you can keep up with my professional life, as well as my coding exercises.
+# Dependencies
+  markdown: kramdown
+  highlighter: pygments
