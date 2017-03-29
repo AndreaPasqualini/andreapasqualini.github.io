@@ -1,9 +1,12 @@
 I am a PhD student in Economics at Bocconi University, Milan.
+Currently enrolled to the second year.
+
+*[Nice picture here soon]*
 
 ## Contacts
-* Email: <andrea.pasqualini@phd.unibocconi.it>
-* Phone: (+39) 02 5836 5192
-* Twitter: <https://twitter.com/@_apsql>
+Email: <andrea.pasqualini@phd.unibocconi.it><br>
+Phone: (+39) 02 5836 5192<br>
+Twitter: <https://twitter.com/@_apsql>
 
 
 ## Curriculum Vitae
@@ -11,7 +14,7 @@ You can find my CV here.
 
 
 ## Research
-
+My research interests essentially lie at the intersection between Macroeconomics and Econometrics.
 
 
 ### Publications
@@ -23,7 +26,8 @@ None yet.
 
 
 ### Projects
-My research interests essentially lie at the intersection between Macroeconomics and Econometrics.
+* Porting James LeSage's Econometrics Toolbox to Python
+* Exploring the role of inventories on the business cycle
 
 
 ## Python Tools
@@ -44,3 +48,4 @@ My research interests essentially lie at the intersection between Macroeconomics
 
 
 ## References
+None yet.
