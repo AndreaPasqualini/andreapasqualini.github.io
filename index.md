@@ -1,9 +1,9 @@
 I am a PhD student in Economics at Bocconi University, Milan.
 
 ## Contacts
-Email: <andrea.pasqualini@phd.unibocconi.it>
-
-Phone: (+39) 02 5836 5192
+* Email: <andrea.pasqualini@phd.unibocconi.it>
+* Phone: (+39) 02 5836 5192
+* Twitter: <https://twitter.com/@_apsql>
 
 
 ## Curriculum Vitae
@@ -15,16 +15,20 @@ You can find my CV here.
 
 
 ### Publications
-Billio, M., R. Casarin, M. Costola, A. Pasqualini (2015), *An Entropy Based Early Warning Indicator for Systemic Risk*, Journal of International Financial Markets, Institutions and Money, (45) 42-59.
+* Billio, M., R. Casarin, M. Costola, A. Pasqualini (2015), *An Entropy Based Early Warning Indicator for Systemic Risk*, Journal of International Financial Markets, Institutions and Money, (45) 42-59.
 
 
 ### Working Papers
-
+None yet.
 
 
 ### Projects
 My research interests essentially lie at the intersection between Macroeconomics and Econometrics.
 
+
+## Python Tools
+* PyMetrics (see on GitHub soon)
+* PyEcon (see on GitHub soon)
 
 ## Teaching
 Period              | Course                      | Level | University
