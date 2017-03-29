@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+I am a PhD student in Economics at Bocconi University, Milan.
 
-You can use the [editor on GitHub](https://github.com/apsql/apsql.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Curriculum Vitae
+You can find my CV here.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Research
 
-### Markdown
+#### Publications
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Working Papers
 
-```markdown
-Syntax highlighted code block
+#### Projects
+My research interests essentially lie at the intersection between Macroeconomics and Econometrics.
 
-# Header 1
-## Header 2
-### Header 3
+### Teaching
+Period              | Course                      | Level | University
+--------------------|-----------------------------|-------|-------------------------------
+Feb 2017 - Present  | Introductory Macroeconomics | B.Sc. | Bocconi University, Milan
+Sep 2016 - Jan 2017 | Monetary Economics          | B.Sc. | Bocconi University, Milan
+Sep 2016 - Jan 2017 | Economic Policy             | B.Sc. | Bocconi University, Milan
+Sep 2014 - Jan 2015 | Probability Theory          | B.Sc. | Ca' Foscari University, Venice
+Sep 2014 - Jan 2015 | Introductory Mathematics    | B.Sc. | Ca' Foscari University, Venice
+Aug 2013 - Jan 2014 | Advanced Mathematics        | M.Sc. | Ca' Foscari University, Venice
+Apr 2013 - Sep 2013 | Introductory Mathematics    | B.Sc. | Ca' Foscari University, Venice
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/apsql/apsql.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### References
