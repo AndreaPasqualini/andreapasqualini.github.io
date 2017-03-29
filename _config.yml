@@ -1,7 +1,7 @@
 # Title stuff
   theme: jekyll-theme-slate
   title: Andrea Pasqualini
-  description: Welcome to my personal webpage! Here you can keep up with my professional life, as well as my coding exercises.
+  description: Welcome! This webpage is currently a work in progress.
 # Dependencies
   markdown: kramdown
   highlighter: rouge
