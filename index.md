@@ -15,7 +15,7 @@ You can find my CV here.
 
 
 ### Publications
-
+Billio, M., R. Casarin, M. Costola, A. Pasqualini (2015), "An Entropy Based Early Warning Indicator for Systemic Risk", *Journal of International Financial Markets, Institutions and Money*, (45) 42-59.
 
 
 ### Working Papers
