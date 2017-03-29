@@ -28,7 +28,7 @@ My research interests essentially lie at the intersection between Macroeconomics
 
 ## Teaching
 Period              | Course                      | Level | University
---------------------+-----------------------------+-------+-------------------------------
+--------------------|-----------------------------|-------|-------------------------------
 Feb 2017 - Present  | Introductory Macroeconomics | B.Sc. | Bocconi University, Milan
 Sep 2016 - Jan 2017 | Monetary Economics          | B.Sc. | Bocconi University, Milan
 Sep 2016 - Jan 2017 | Economic Policy             | B.Sc. | Bocconi University, Milan
