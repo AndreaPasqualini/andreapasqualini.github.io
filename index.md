@@ -18,7 +18,7 @@ My research interests essentially lie at the intersection between Macroeconomics
 
 
 ### Publications
-* Billio, M., R. Casarin, M. Costola, A. Pasqualini (2015), *An Entropy Based Early Warning Indicator for Systemic Risk*, Journal of International Financial Markets, Institutions and Money, (45) 42-59.
+* Billio, M., R. Casarin, M. Costola, A. Pasqualini (2015), *An Entropy Based Early Warning Indicator for Systemic Risk*, Journal of International Financial Markets, Institutions and Money, (45) 42-59 [DOI: [10.1016/j.intfin.2016.05.008](        https://dx.doi.org/10.1016/j.intfin.2016.05.008)]
 
 
 ### Working Papers
