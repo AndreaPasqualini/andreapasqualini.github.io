@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <img src="/files/picture.png" align="right" alt="Hi" class="inline"/> 
 
 I am a PhD candidate in Economics at Bocconi University, Milan.
