@@ -1,7 +1,8 @@
+<img align=right src=/files/picture.png>
+
 I am a PhD candidate in Economics at Bocconi University, Milan.
 Currently enrolled to the second year.
 
-<img src=/files/picture.png>
 
 ## Contacts
 
