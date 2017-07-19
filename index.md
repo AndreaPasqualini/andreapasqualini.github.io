@@ -4,7 +4,8 @@ layout: default
 
 <img src="/files/picture.png" align="right" alt="Hi" class="inline"/> 
 
-I am a PhD candidate in Economics at Bocconi University, Milan.
+Welcome to my personal webpage.
+I am a Ph.D. candidate in Economics at Bocconi University, Milan.
 Currently enrolled to the second year.
 
 
@@ -46,25 +47,12 @@ I am also interested in Time Series Econometrics and I plan to work on it in the
 | Mar 2017 - Aug 2017 | Tom Schmitz       | Developing Python tools to programmatically retrieve data from Google |
 
 
-### Projects
-
-* Porting James LeSage's Econometrics Toolbox to Python
-* Exploring the role of inventories on the business cycle
-
-
-## Python Tools
-
-* Python wrapper for google-api-python-client (WIP)
-* PyMetrics (WIP)
-* PyEcon (planned)
-
-
 ## Teaching
 
 | Period              | Course                      | Level | University                     |
 | ------------------- | --------------------------- | ----- | ------------------------------ |
-| Apr 2018 - Jun 2018 | Macroeconomics 4            | PhD   | Bocconi University, Milan      |
-| Feb 2018 - Apr 2018 | Macroeconomics 3            | PhD   | Bocconi University, Milan      |
+| Apr 2018 - Jun 2018 | Macroeconomics 4            | Ph.D. | Bocconi University, Milan      |
+| Feb 2018 - Apr 2018 | Macroeconomics 3            | Ph.D. | Bocconi University, Milan      |
 | Sep 2017 - Jan 2018 | Macroeconometrics           | M.Sc. | Bocconi University, Milan      |
 | Sep 2017 - Jan 2018 | Economic Policy             | B.Sc. | Bocconi University, Milan      |
 | Feb 2017 - Jun 2017 | Introductory Macroeconomics | B.Sc. | Bocconi University, Milan      |
@@ -78,3 +66,21 @@ I am also interested in Time Series Econometrics and I plan to work on it in the
 
 ## References
 *[coming soon]*
+
+
+## Other Interests
+
+Other than academic work, I also like programming in Python and learning how to use web technologies.
+When I buy desktop PCs, I custom-build them.
+When my friends buy desktop PCs, I custom-build them.
+And I love videogaming, especially FPS and racing games.
+
+
+### Python projects
+
+I will probably upload the code of the following libraries I am working on here on GitHub.
+
+* Python wrapper for google-api-python-client (*WIP*)
+* Own Econometrics toolbox (*WIP*)
+* Port of LeSage's Matlab toolbox (*WIP*)
+* Own Economic Models toolbox (*planned*, mainly Bewley-Huggett-Aiyagari-type models)
