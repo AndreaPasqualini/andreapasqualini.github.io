@@ -1,4 +1,4 @@
-<img align=right alt="Hi" class="inline" src=/files/picture.png> 
+<img src="/files/picture.png" align="right" alt="Hi" class="inline"/> 
 
 I am a PhD candidate in Economics at Bocconi University, Milan.
 Currently enrolled to the second year.
