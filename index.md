@@ -1,7 +1,7 @@
 I am a PhD candidate in Economics at Bocconi University, Milan.
 Currently enrolled to the second year.
 
-*[Nice picture here soon]*
+<img src=/files/picture.png>
 
 ## Contacts
 
@@ -12,7 +12,7 @@ Twitter: <https://twitter.com/@apsql>
 
 ## Curriculum Vitae
 
-You can find my CV here.
+You can find my CV [here](/files/cv.pdf).
 
 
 ## Research
