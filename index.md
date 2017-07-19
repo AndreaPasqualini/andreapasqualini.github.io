@@ -1,4 +1,4 @@
-<img align=right src=https://apsql.github.io/files/picture.png> 
+<img align=right alt="Hi" class="inline" src=/files/picture.png> 
 
 I am a PhD candidate in Economics at Bocconi University, Milan.
 Currently enrolled to the second year.
