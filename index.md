@@ -28,6 +28,14 @@ I am also interested in Time Series Econometrics and I plan to work on it in the
 None (yet...)
 
 
+### Research Assistance
+
+| Period              | Professor         | Project                                                               |
+| ------------------- | ----------------- | --------------------------------------------------------------------- |
+| *Upcoming*          | Antonella Trigari | *Early stages...*                                                     |
+| Mar 2017 - Aug 2017 | Tom Schmitz       | Developing Python tools to programmatically retrieve data from Google |
+
+
 ### Projects
 * Porting James LeSage's Econometrics Toolbox to Python
 * Exploring the role of inventories on the business cycle
@@ -37,12 +45,6 @@ None (yet...)
 * Python wrapper for google-api-python-client (WIP)
 * PyMetrics (WIP)
 * PyEcon (planned)
-
-
-## Research Assistance
-| Period              | Professor   | Project                                                               |
-| ------------------- | ----------- | --------------------------------------------------------------------- |
-| Mar 2017 - Aug 2017 | Tom Schmitz | Developing Python tools to programmatically retrieve data from Google |
 
 
 ## Teaching
