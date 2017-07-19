@@ -36,7 +36,7 @@ I am also interested in Time Series Econometrics and I plan to work on it in the
 
 ### Working Papers
 
-*[Coming soon]*
+*[coming soon]*
 
 
 ### Research Assistance
@@ -71,8 +71,7 @@ I am also interested in Time Series Econometrics and I plan to work on it in the
 ## Other Interests
 
 Other than academic work, I also like programming in Python and learning how to use web technologies.
-When I buy desktop PCs, I custom-build them.
-When my friends buy desktop PCs, I custom-build them.
+I like custom-building desktop PCs.
 And I love videogaming, especially FPS and racing games.
 
 
@@ -80,7 +79,7 @@ And I love videogaming, especially FPS and racing games.
 
 I will probably upload the code of the following libraries I am working on here on GitHub.
 
-* Python wrapper for google-api-python-client (*WIP*)
-* Own Econometrics toolbox (*WIP*)
-* Port of LeSage's Matlab toolbox (*WIP*)
-* Own Economic Models toolbox (*planned*, mainly Bewley-Huggett-Aiyagari-type models)
+* Python wrapper using the [`google-api-python-client`](https://developers.google.com/api-client-library/python/) for the Custom Search Engine product (WIP)
+* Port of [LeSage's Matlab toolbox](http://www.spatial-econometrics.com/) (WIP)
+* Own Econometrics toolbox (WIP)
+* Own Economic Models toolbox (planned, mainly Bewley-Huggett-Aiyagari-type models)
