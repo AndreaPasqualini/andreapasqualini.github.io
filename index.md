@@ -4,16 +4,19 @@ Currently enrolled to the second year.
 *[Nice picture here soon]*
 
 ## Contacts
+
 Email: <andrea.pasqualini@phd.unibocconi.it><br>
 Phone: (+39) 02 5836 5192<br>
 Twitter: <https://twitter.com/@apsql>
 
 
 ## Curriculum Vitae
+
 You can find my CV here.
 
 
 ## Research
+
 I am currently exploring bank heterogeneity and the role of the interbank market in the transmission of financial shocks and the unfolding of systemic events.
 My field paper tries to understand why we observe bank heterogeneity in a closed economy.
 
@@ -21,11 +24,13 @@ I am also interested in Time Series Econometrics and I plan to work on it in the
 
 
 ### Publications
+
 * Billio, M., R. Casarin, M. Costola, A. Pasqualini (2015), *An Entropy Based Early Warning Indicator for Systemic Risk*, Journal of International Financial Markets, Institutions and Money, (45) 42-59 [DOI: [10.1016/j.intfin.2016.05.008](        https://dx.doi.org/10.1016/j.intfin.2016.05.008)]
 
 
 ### Working Papers
-None (yet...)
+
+*[Coming soon]*
 
 
 ### Research Assistance
@@ -37,11 +42,13 @@ None (yet...)
 
 
 ### Projects
+
 * Porting James LeSage's Econometrics Toolbox to Python
 * Exploring the role of inventories on the business cycle
 
 
 ## Python Tools
+
 * Python wrapper for google-api-python-client (WIP)
 * PyMetrics (WIP)
 * PyEcon (planned)
