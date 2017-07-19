@@ -1,4 +1,4 @@
-I am a PhD student in Economics at Bocconi University, Milan.
+I am a PhD candidate in Economics at Bocconi University, Milan.
 Currently enrolled to the second year.
 
 *[Nice picture here soon]*
