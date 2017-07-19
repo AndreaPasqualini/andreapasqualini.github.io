@@ -186,7 +186,7 @@ a {
 
   code {
     padding: 2px 4px;
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: "Fira Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
     color: $code-text-color;
     background-color: $code-bg-color;
@@ -197,7 +197,7 @@ a {
     padding: 0.8rem;
     margin-top: 0;
     margin-bottom: 1rem;
-    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font: 1rem "Fira Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: $code-text-color;
     word-wrap: normal;
     background-color: $code-bg-color;
