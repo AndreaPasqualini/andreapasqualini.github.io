@@ -83,4 +83,4 @@ I will probably upload the code of the following libraries I am working on here 
 * Port of [LeSage's Matlab toolbox](http://www.spatial-econometrics.com/) (WIP)
 * Own Econometrics toolbox (WIP)
 * Own Economic Models toolbox (planned, mainly Bewley-Huggett-Aiyagari-type models)
-* Code for the PhD course in Numeric Methods for Macroeconomics (aka Macroeconomics 3) (WIP)
+* Code for the PhD course in Numerical Methods for Macroeconomics (aka Macroeconomics 3) (WIP)
