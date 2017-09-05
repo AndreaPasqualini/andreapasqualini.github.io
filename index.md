@@ -6,7 +6,7 @@ layout: default
 
 Welcome to my personal webpage.
 I am a Ph.D. candidate in Economics at Bocconi University, Milan.
-Currently enrolled to the second year.
+Currently enrolled to the third year.
 
 
 ## Contacts
@@ -24,14 +24,14 @@ You can find my CV [here](/files/cv.pdf).
 ## Research
 
 I am currently exploring bank heterogeneity and the role of the interbank market in the transmission of financial shocks and the unfolding of systemic events.
-My field paper tries to understand why we observe bank heterogeneity in a closed economy.
+My 2nd year paper tries to understand the size distribution in the banking sector in a closed economy.
 
 I am also interested in Time Series Econometrics and I plan to work on it in the future.
 
 
 ### Publications
 
-* Billio, M., R. Casarin, M. Costola, A. Pasqualini (2015), *An Entropy Based Early Warning Indicator for Systemic Risk*, Journal of International Financial Markets, Institutions and Money, (45) 42-59 [DOI: [10.1016/j.intfin.2016.05.008](        https://dx.doi.org/10.1016/j.intfin.2016.05.008)]
+* Billio, M., R. Casarin, M. Costola, A. Pasqualini (2015), *An Entropy Based Early Warning Indicator for Systemic Risk*, Journal of International Financial Markets, Institutions and Money, (45) 42-59 [DOI: [10.1016/j.intfin.2016.05.008](https://dx.doi.org/10.1016/j.intfin.2016.05.008)]
 
 
 ### Working Papers
@@ -41,10 +41,10 @@ I am also interested in Time Series Econometrics and I plan to work on it in the
 
 ### Research Assistance
 
-| Period              | Professor         | Project                                                               |
-| ------------------- | ----------------- | --------------------------------------------------------------------- |
-| *Upcoming*          | Antonella Trigari | *Early stages...*                                                     |
-| Mar 2017 - Aug 2017 | Tom Schmitz       | Developing Python tools to programmatically retrieve data from Google |
+| Period               | Professor         | Project                                                               |
+| -------------------- | ----------------- | --------------------------------------------------------------------- |
+| Sep 2017 - *present* | Antonella Trigari | *Early stages...*                                                     |
+| Mar 2017 - Aug 2017  | Tom Schmitz       | Developing Python tools to programmatically retrieve data from Google |
 
 
 ## Teaching
@@ -70,7 +70,7 @@ I am also interested in Time Series Econometrics and I plan to work on it in the
 
 ## Other Interests
 
-Other than academic work, I also like programming in Python and learning how to use web technologies.
+Other than academic work, I also like programming in Python and learning how to use web technologies and design webpages.
 I like custom-building desktop PCs.
 And I love videogaming, especially FPS and racing games.
 
@@ -79,7 +79,8 @@ And I love videogaming, especially FPS and racing games.
 
 I will probably upload the code of the following libraries I am working on here on GitHub.
 
-* Python wrapper using the [`google-api-python-client`](https://developers.google.com/api-client-library/python/) for the Custom Search Engine product (WIP)
+* Python wrapper using the [`google-api-python-client`](https://developers.google.com/api-client-library/python/) for the Custom Search Engine product
 * Port of [LeSage's Matlab toolbox](http://www.spatial-econometrics.com/) (WIP)
 * Own Econometrics toolbox (WIP)
 * Own Economic Models toolbox (planned, mainly Bewley-Huggett-Aiyagari-type models)
+* Code for the course in Numeric Methods for Macroeconomics (aka Macroeconomics 3) (WIP)
