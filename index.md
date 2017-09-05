@@ -70,9 +70,9 @@ I am also interested in Time Series Econometrics and I plan to work on it in the
 
 ## Other Interests
 
-Other than academic work, I also like programming in Python and learning how to use web technologies and design webpages.
+Other than academic work, I also like programming in Python, learning how to use web technologies and designing webpages.
 I like custom-building desktop PCs.
-And I love videogaming, especially FPS and racing games.
+And I do some videogaming, especially FPS and racing games.
 
 
 ### Python projects
