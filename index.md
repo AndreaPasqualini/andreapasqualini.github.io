@@ -13,7 +13,6 @@ Currently enrolled to the third year.
 
 Email: <andrea.pasqualini@phd.unibocconi.it><br>
 Phone: (+39) 02 5836 5192<br>
-Twitter: <https://twitter.com/@apsql>
 
 
 ## Curriculum Vitae
