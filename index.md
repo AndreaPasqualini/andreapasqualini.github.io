@@ -48,7 +48,7 @@ I am interested in Empirical Macroeconomics and Time Series Econometrics.
 | Period              | Course                      | Level | University                     |
 | ------------------- | --------------------------- | ----- | ------------------------------ |
 | Apr 2018 - Jun 2018 | Macroeconomics 4            | Ph.D. | Bocconi University, Milan      |
-| Feb 2018 - Apr 2018 | Macroeconomics 3            | Ph.D. | Bocconi University, Milan      |
+| Feb 2018 - Mar 2018 | Macroeconomics 3            | Ph.D. | Bocconi University, Milan      |
 | Sep 2017 - Jan 2018 | Macroeconometrics           | M.Sc. | Bocconi University, Milan      |
 | Sep 2017 - Jan 2018 | Economic Policy             | B.Sc. | Bocconi University, Milan      |
 | Feb 2017 - Jun 2017 | Introductory Macroeconomics | B.Sc. | Bocconi University, Milan      |
