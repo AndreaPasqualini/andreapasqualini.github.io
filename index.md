@@ -39,8 +39,8 @@ I am interested in Empirical Macroeconomics and Time Series Econometrics.
 
 | Period               | Professor         | Project                                                               |
 | -------------------- | ----------------- | --------------------------------------------------------------------- |
-| Sep 2017 - *present* | Antonella Trigari | *Early stages...*                                                     |
-| Mar 2017 - Aug 2017  | Tom Schmitz       | Developing Python tools to programmatically retrieve data from Google |
+| Sep 2017 - *present* | Antonella Trigari | "The Drivers of EU Unemployment During the Great Recession"           |
+| Mar 2017 - Aug 2017  | Tom Schmitz       | Developed Python tools to programmatically retrieve data from Google  |
 
 
 ## Teaching
