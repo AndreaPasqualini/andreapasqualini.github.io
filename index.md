@@ -32,15 +32,7 @@ I am interested in Empirical Macroeconomics and Time Series Econometrics.
 
 ### Work in Progress
 
-* __Bank Heterogeneity and the Interbank Network__
-
-  Banks in Italy are quite different in terms of size and roughly two thirds of them are very small.
-  While this is consistent with the phenomenon of Small and Medium Enterprises (SMEs) in Italy, it is not clear why banks would not rather be all big and ready to face relatively large financial shocks.
-  The phenomenon is relevant with regard to the literature about systemic importance in the economy and systemic risk.
-
-  I document some facts about size heterogeneity and discuss aggregate data regarding the banking sector in Italy.
-  I write a small model that tries to explain how banks invest in loans and/or other safer assets (e.g., public bonds) under the assumption that they maximize the dividends they pay to shareholders.
-  I finally outline some research ideas that I will explore in the future.
+*[Coming soon]*
 
 
 ### Research Assistance
