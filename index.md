@@ -73,12 +73,13 @@ I like custom-building desktop PCs.
 And I do some videogaming, especially FPS and racing games.
 
 
-### Python projects
+### GitHub projects
 
-I will probably upload the code of the following libraries I am working on here on GitHub.
+I have some code on [my GitHub profile](https://github.com/apsql/).
+Most of the public code is MIT-licensed, which means you can do whatever you like with it, as long as you give credit where due.
+Most notably:
 
-* Python wrapper using the [`google-api-python-client`](https://developers.google.com/api-client-library/python/) for the Custom Search Engine product
-* Port of [LeSage's Matlab toolbox](http://www.spatial-econometrics.com/) (WIP)
-* Own Econometrics toolbox (WIP)
-* Own Economic Models toolbox (planned, mainly Bewley-Huggett-Aiyagari-type models)
-* Code for the PhD course in Numerical Methods for Macroeconomics (aka Macroeconomics 3) (WIP)
+- Python wrapper using the [`google-api-python-client`](https://developers.google.com/api-client-library/python/) for the Custom Search Engine product
+- Own Econometrics toolbox (WIP)
+- Own Economic Models toolbox (planned, mainly Bewley-Huggett-Aiyagari-type models and linear rational-expectations models)
+- Code for the PhD course in Numerical Methods for Macroeconomics (aka Macroeconomics 3) (WIP)
