@@ -43,7 +43,7 @@ I am interested in Empirical Macroeconomics and Time Series Econometrics.
 | Mar 2017 - Aug 2017  | Tom Schmitz       | Developed Python tools to programmatically retrieve data from Google  |
 
 
-## Teaching
+## Teaching Assistance
 
 | Period              | Course                      | Level | University                     |
 | ------------------- | --------------------------- | ----- | ------------------------------ |
