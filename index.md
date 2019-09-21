@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="/files/picture.png" align="right" alt="Hi" class="inline"/>
+<img src="/files/picture.jpg" align="right" alt="Hi" class="inline"/>
 
 Welcome to my personal webpage.
 I am a Ph.D. candidate in Economics at [Bocconi University](http://didattica.unibocconi.it/docenti/cv.php?rif=185848), Milan.
