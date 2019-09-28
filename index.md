@@ -6,13 +6,13 @@ layout: default
 
 Welcome to my personal webpage.
 I am a Ph.D. candidate in Economics at [Bocconi University](http://didattica.unibocconi.it/docenti/cv.php?rif=185848), Milan.
-Currently enrolled to the third year.
+Currently enrolled to the fifth year.
 
 
 ## Contacts
 
 Email: <andrea.pasqualini@phd.unibocconi.it><br>
-Phone: (+39) 02 5836 5192<br>
+Phone: (+39) 02 5836 5273<br>
 
 
 ## Curriculum Vitae
