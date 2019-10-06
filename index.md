@@ -5,7 +5,7 @@ layout: default
 <img src="/files/picture.jpg" align="right" alt="Hi" class="inline"/>
 
 Welcome to my personal webpage.
-I am a Ph.D. candidate in Economics at [Bocconi University](http://didattica.unibocconi.it/docenti/cv.php?rif=185848), Milan.
+I am a Ph.D. candidate in Economics at [Bocconi University](http://didattica.unibocconi.eu/docenti/cv.php?rif=185848), Milan.
 Currently enrolled to the fifth year.
 
 
@@ -25,24 +25,18 @@ You can find my CV [here](/files/cv.pdf).
 I am interested in Empirical Macroeconomics and Time Series Econometrics.
 
 
+### Work in Progress
+
+- "Markups in the Banking Industry"
+- "The Drivers of EU Unemployment during the Great Recession", joint with D. Comin, R. Franceschin and A. Trigari
+
+
 ### Publications
 
 * Billio, M., R. Casarin, M. Costola, A. Pasqualini (2015), *An Entropy Based Early Warning Indicator for Systemic Risk*, Journal of International Financial Markets, Institutions and Money, (45) 42-59 [DOI: [10.1016/j.intfin.2016.05.008](https://dx.doi.org/10.1016/j.intfin.2016.05.008)]
 
 
-### Work in Progress
-
-*[coming soon]*
-
-
-### Research Assistance
-
-| Period               | Professor         | Project                                                               |
-| -------------------- | ----------------- | --------------------------------------------------------------------- |
-| Sep 2017 - *present* | Antonella Trigari | *"The Drivers of EU Unemployment During the Great Recession"*         |
-| Mar 2017 - Aug 2017  | Tom Schmitz       | Developed Python tools to programmatically retrieve data from Google  |
-
-
+<!--
 ## Teaching Assistance
 
 | Period              | Course                      | Level | University                     |
@@ -62,6 +56,7 @@ I am interested in Empirical Macroeconomics and Time Series Econometrics.
 | Sep 2014 - Jan 2015 | Introductory Mathematics    | B.Sc. | Ca' Foscari University, Venice |
 | Aug 2013 - Jan 2014 | Advanced Mathematics        | M.Sc. | Ca' Foscari University, Venice |
 | Apr 2013 - Sep 2013 | Introductory Mathematics    | B.Sc. | Ca' Foscari University, Venice |
+-->
 
 
 ## References
@@ -83,6 +78,5 @@ Most of the public code is MIT-licensed, which means you can do whatever you lik
 Most notably:
 
 - Python wrapper using the [`google-api-python-client`](https://developers.google.com/api-client-library/python/) for the Custom Search Engine product
-- Own Econometrics toolbox (WIP)
-- Own Economic Models toolbox (planned, mainly Bewley-Huggett-Aiyagari-type models and linear rational-expectations models)
 - Code for the PhD course in Numerical Methods for Macroeconomics (aka Macroeconomics 3) (WIP)
+- Code to retrieve FDIC data: both [SDI](https://github.com/apsql/fdic_sdi_getnprep) and [Call Reports](https://github.com/apsql/ffiec_cdr_call_reports_downloader)
