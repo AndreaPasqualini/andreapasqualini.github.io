@@ -22,7 +22,7 @@ You can find my CV [here](/files/cv.pdf).
 
 ## Research
 
-I am interested in Empirical Macroeconomics and Time Series Econometrics.
+<!-- I am interested in Empirical Macroeconomics. -->
 
 
 ### Work in Progress
