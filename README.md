@@ -1,7 +1,16 @@
-# Personal website
+# Personal Website
 
-This repository contains files for my personal webpage.
-This place is not very interesting for most people.
 
-Why don't you have a look here?
-[https://apsql.github.io/](https://apsql.github.io/)
+## Build Instructions
+
+This website is built using [Jekyll](https://jekyllrb.com/), hosted on [GitHub](https://github.com/) and served by [GitHub Pages](https://pages.github.com/).
+
+
+### First setup
+
+The initial setup of this folder has been carried out by executing
+
+    gem install bundler jekyll
+    jekyll new apsql.github.io
+
+This delivers a minimal working Jekyll setup based off the [Minima Jekyll theme](https://github.com/jekyll/minima).
