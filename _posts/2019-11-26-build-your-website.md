@@ -260,3 +260,6 @@ $ cp <that-folder>/_sass ./_sass -r
 The command `cp` copies the files and is a Unix/Linux command (meaning you have it on macOS).
 You can learn more about that command [here](http://man7.org/linux/man-pages/man1/cp.1.html).
 Now we can modify the contents of these three folders (the ones in the root folder of your website, not the ones in `<that-folder>`!) to override default theme settings.
+
+If the theme of your choice is well documented, it will tell you what to do.
+In the case of Just the Docs, see [this page](https://pmarsceill.github.io/just-the-docs/docs/customization/) to know what to do from this point on.
