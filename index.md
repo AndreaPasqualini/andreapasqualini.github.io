@@ -12,7 +12,7 @@ Currently enrolled in the 5<sup>th</sup> year.
 
 <img src="/assets/img/picture.jpg" align="right" alt="Profile picture" class="inline">
 
-My main research interests lie in Empirical Industrial Organization, Financial Intermediation and Macroeconomics.
+My main research interests are in Empirical Industrial Organization, Financial Intermediation and Macroeconomics.
 I'm particularly interested in understanding how markups in the banking sector affect bank-specific issues, such as credit allocation and risk-taking behavior.
 
 You can read more about me in the [About page](/_pages/about.md).
