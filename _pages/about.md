@@ -31,7 +31,9 @@ I am not talking about the replication narrative researchers typically include i
 I talk about detailed, step by step instructions on any procedure that is not trivial.
 Typically these instructions come as code, but they do not need to.
 They can also be detailed instructions presented in a mix of code lines and explanatory text, such as a [Jupyter notebook](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#data-driven-journalism).
-This is why my research, whenever mature enough to go public, will come with a dedicated GitHub repository with data, code, replication instructions and whatnot may be necessary to replicate what I do.
+This is why my research, whenever mature enough to go public, will come with a dedicated GitHub repository with data (when publicly available), code, replication instructions and whatnot may be necessary to replicate what I do.
+Research is a lot about building on the giant's shoulders.
+By doing this, I hope I will make it easier and faster for other people to catch up and get up and running with their thing.
 
 Research is not the only context where the above applies.
 Say you are a newly enrolled PhD student and you want to understand how to build your own personal website.
