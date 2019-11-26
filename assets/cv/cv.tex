@@ -1,0 +1,124 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,tikz,graphicx,xcolor,fancyhdr,multirow,natbib,hyperref,titlesec,longtable}
+
+% \usepackage[onehalfspacing]{setspace}
+\usepackage[top=3cm, bottom=3cm, left=4cm, right=4cm]{geometry}
+
+\usepackage[charter]{mathdesign}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=blue,
+	citecolor=black
+}
+
+% \titleformat{\section}%
+% 	{
+% 		\itshape\bfseries
+% 	}%
+% 	{\thesection}{}{}
+\newlength{\leftcolumn}
+\newlength{\maincolumn}
+\setlength{\leftcolumn}{3.5cm}
+\setlength{\maincolumn}{9.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\newcommand{\email}{{\href{mailto:andrea.pasqualini@phd.unibocconi.it}{andrea.pasqualini@phd.unibocconi.it}}}
+\newcommand{\skype}{{\href{skype:andrea.pasqualini90}{andrea.pasqualini90}}}
+\newcommand{\github}{{\href{https://github.com/apsql}{apsql}}}
+\newcommand{\phone}{\tt +39~02~5836~5273}
+\newcommand{\mobile}{\tt +39~340~692~4644}
+\newcommand{\cafoscari}{\emph{Ca' Foscari University, Venice (Italy)}}
+\newcommand{\bocconi}{\emph{Bocconi University, Milan (Italy)}}
+
+\begin{document}
+	{\hspace{-2cm}
+		\small
+		\begin{tabular}{lcrlcrl}
+			\multirow{4}{*}{\LARGE\itshape\bfseries Andrea Pasqualini}
+			&& Date of Birth: 	& 20 Oct 1990 	&& Email: 	& \email 	\\
+			&& Gender: 			& Male 			&& Skype:	& \skype 	\\
+			&& Citizenship: 	& Italian 		&& Phone: 	& \phone 	\\
+			&& 					& 				&& Mobile: 	& \mobile \\ \hline
+		\end{tabular}
+	}
+
+	\subsection*{Education}
+		\begin{longtable}{p{\leftcolumn}p{\maincolumn}}
+			Sep 2015 -- Present 	& \textbf{Ph.D.~in Economics} \\
+									& \bocconi \\
+									& Majors: Econometrics, Macroeconomics \vspace{1em}\\
+			Sep 2012 -- Oct 2014 	& \textbf{M.Sc.~in Economics} (\emph{Summa cum Laude}) \\
+									& \cafoscari \\
+									& Main Fields: Macroeconomics, Time Series Analysis \vspace{1em}\\
+			Sep 2009 -- Jul 2012 	& \textbf{B.~in Economics and Business} \\
+									& \cafoscari \\
+		 							& Main Fields: Microeconomics, Management \vspace{1em}
+		\end{longtable}
+
+	\subsection*{Research Interests}
+		Quantitative Macroeconomics, DSGE estimation, Time Series Econometrics, Bayesian Macroeconometrics, Computational Methods in Economics.
+
+		%I am currently working on bank heterogeneity and on the interbank market.
+
+		\vspace{2em}
+
+	\subsection*{Working Experience}
+		\begin{longtable}{p{\leftcolumn}p{\maincolumn}}
+			Mar 2017 -- May 2017 	& \textbf{Research Assistant} (prof.~Tom Schmitz) \\
+									& Data retrieval and cleaning. Developed and deployed Python code for web scraping and matching data across various datasets. \\
+									& \bocconi \vspace{1em}\\
+			Feb 2015 -- Jul 2015 	& \textbf{Research Assistant} (prof.~Guido M.~Mantovani) \\
+									& Data retrieval, coding, cleaning and maintenance, as well as tuned econometric models. Developed and deployed R code for procedure automatization. \\
+									& \cafoscari \vspace{1em}\\
+		\end{longtable}
+
+	\subsection*{Teaching Experience}
+		\begin{longtable}{p{\leftcolumn}p{\maincolumn}}
+			Feb 2017 -- Present 	& \textbf{Teaching Assistant} (Introductory Macroeconomics -- B.) \\
+									& \bocconi \vspace{1em}\\
+			Sep 2016 -- Jan 2017 	& \textbf{Teaching Assistant} (Monetary Economics -- B.) \\
+									& \bocconi \vspace{1em}\\
+			Sep 2016 -- Jan 2017 	& \textbf{Teaching Assistant} (Economic Policy -- B.) \\
+									& \bocconi \vspace{1em}\\
+			Sep 2014 -- Jan 2015 	& \textbf{Teaching Assistant} (Probability Theory -- B.) \\
+									& \cafoscari \vspace{1em}\\
+			Sep 2014 -- Jan 2015 	& \textbf{Teaching Assistant} (Introductory Mathematics -- B.) \\
+									& \cafoscari \vspace{1em}\\
+			Aug 2013 -- Jan 2014 	& \textbf{Teaching Assistant} (Advanced Mathematics -- M.Sc.) \\
+									& \cafoscari \vspace{1em}\\
+			Apr 2013 -- Sep 2013 	& \textbf{Teaching Assistant} (Introductory Mathematics -- B.) \\
+									& \cafoscari \vspace{1em}
+		\end{longtable}
+
+	\subsection*{Awards}
+		\begin{tabular}{p{\leftcolumn}p{\maincolumn}}
+			May 2015	& ``Guido Cazzavillan'' Award (best Master Thesis in Economics) \\
+						& \emph{Ca' Foscari University, Venice (Italy)} \vspace{1em}
+		\end{tabular}
+
+	%\subsection*{Working Papers}
+
+	\subsection*{Publications}
+		Billio, M., R. Casarin, M. Costola, A. Pasqualini (2016). ``An Entropy-Based Early Warning Indicator for Systemic Risk.'' \emph{Journal of International Financial Markets, Institutions and Money}, 45, 42-59 (DOI: \href{https://doi.org/10.1016/j.intfin.2016.05.008}{10.1016/j.intfin.2016.05.008})
+
+	%\subsection*{References}
+
+	\subsection*{Skills and Languages}
+		\begin{tabular}{p{4.5cm}p{2.5cm}p{2cm}p{2cm}}
+			Matlab & expert 						& Italian & mothertongue \\
+			Python (Numpy, Scipy, etc.) & expert	& English & fluent \\
+			R & advanced                            & German  & beginner \\
+			\LaTeX & advanced & & \\
+			Microsoft Office & advanced & & \\
+			Stata / Mata & beginner & &
+		\end{tabular}
+
+	\subsection*{}
+
+
+\end{document}
