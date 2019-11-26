@@ -1,5 +1,10 @@
 # Personal Website
 
+This repository hosts my personal website.
+GitHub serves apsql.github.io using the files in this repo.
+If you are interested in learning more about me, then this repo is useless to you.
+If, instead, you want to learn how I did this website, then read on.
+
 
 ## Build Instructions
 
