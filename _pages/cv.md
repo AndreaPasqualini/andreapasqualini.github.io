@@ -10,4 +10,4 @@ nav_order: 5
 My CV will appear below.
 You can also [download](/assets/cv/cv.pdf) it.
 
-<iframe width="100%" height="600" src="/web/viewer.html?file=/assets/cv/cv.pdf"></iframe>
+<iframe width="100%" height="600" src="/pdf.js/web/viewer.html?file=/assets/cv/cv.pdf"></iframe>
