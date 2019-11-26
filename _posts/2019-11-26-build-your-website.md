@@ -233,7 +233,11 @@ All you need to do is to open such page and, in the preamble (delimited with `--
 search_exclude: true
 ```
 
-To further customize the theme, we need to get access to certain special folders.
+
+### Customize the theme
+
+Now that we are using a theme, we may want to customize it, so that it does not look exactly like the original.
+To do so, we need to get access to certain special folders.
 Notable such folders carry the names `_includes`, `_layouts` and `_sass`.
 Given the instructions in [First Setup](#first-setup), we do not have those folders in our root folder.
 We need to find them and copy them over.
