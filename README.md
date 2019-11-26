@@ -11,6 +11,20 @@ If, instead, you want to learn how I did this website, then read on.
 This website is built using [Jekyll](https://jekyllrb.com/), hosted on [GitHub](https://github.com/) and served by [GitHub Pages](https://pages.github.com/).
 
 
+### Environment
+
+The following requires [Ruby](https://www.ruby-lang.org/en/), [Bundler](https://bundler.io/) and [Jekyll](https://jekyllrb.com/).
+I am using [Debian](https://www.debian.org/) in the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+This means that what I write in this section works on Windows (provided WSL is installed) and on any APT-based distribution (e.g., [Ubuntu](https://ubuntu.com/desktop)).
+Ruby is the programming language at the basis of Jekyll.
+
+    sudo apt install ruby
+
+Once Ruby is installed, we need to install Bundler and Jekyll.
+
+    gem install bundler jekyll
+
+
 ### First setup
 
 The initial setup of this folder has been carried out by executing
