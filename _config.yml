@@ -28,6 +28,7 @@ twitter_username: apsql
 github_username: apsql
 
 # Build settings
+theme: "just-the-docs"
 # plugins:
 #   - jekyll-feed
 
