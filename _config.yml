@@ -41,7 +41,7 @@ aux_links:
     - "https://github.com/apsql"
 
 # Include pages into processing
-include: ["_pages"]
+include: ["_pages", "_posts"]
 
 # Footer content appears at the bottom of every page's main content
 footer_content: "Copyright &copy; 2019 Andrea Pasqualini. Distributed under the <a href=\"https://github.com/apsql/apsql.github.io/tree/master/LICENSE\">MIT license</a>."
