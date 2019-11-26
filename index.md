@@ -7,13 +7,14 @@ nav_order: 1
 # Welcome!
 
 I am Andrea Pasqualini, a PhD candidate in Economics at Bocconi University.
-Currently enrolled in the 5<sup>th</sup> year.
 {: .fs-6 .fw-300 }
 
 <img src="/assets/img/picture.jpg" align="right" alt="Profile picture" class="inline">
 
 My main research interests are in Empirical Industrial Organization, Financial Intermediation and Macroeconomics.
 I'm particularly interested in understanding how markups in the banking sector affect bank-specific issues, such as credit allocation and risk-taking behavior.
+
+I am currently enrolled in the 5<sup>th</sup> year and I will be on the Job Market in the academic year 2020/2021.
 
 You can read more about me in the [About page](/_pages/about.md).
 
