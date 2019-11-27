@@ -7,5 +7,4 @@ nav_order: 5
 
 # Curriculum Vitae
 
-My CV should appear below.
-You can also [download](/assets/cv/cv.pdf) it.
+Here you can [download my CV](/assets/cv/cv.pdf).
