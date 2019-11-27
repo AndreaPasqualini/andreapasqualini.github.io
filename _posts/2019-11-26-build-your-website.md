@@ -109,7 +109,7 @@ $ gem install bundler jekyll
 ```
 
 
-### First setup
+### First (local) setup
 
 Create a new website from scratch, based on a default Jekyll template.
 
@@ -144,33 +144,7 @@ The first relates to Bundler and keeps track of all Ruby requirements needed to 
 The second relates to Jekyll and contains some settings about the website.
 
 
-### Making sure GitHub Pages will work once the site goes live
-
-The default Gemfile that was created with `jekyll new` contains the following comment:
-
-```bash
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-```
-
-Do as it says.
-
-
-### Uploading the website to GitHub, for publication
-
-To publish the website using GitHub Pages, you need to create a repository at [github.com](https://github.com).
-If you do not have a custom domain yet, and want your website to appear automatically, then the repository you create must have the name `[username].github.io`, which will also be the URL at which your website will be found.
-Once you have the repository, move all files created by Jekyll above into the git repository.
-As soon as you push the new files to GitHub, GitHub will start building your website.
-It will be publicly available at `[username].github.io` after few minutes.
-GitHub will only build using the files in the `master` branch.
-If you push updates to your code in another branch, then GitHub will ignore them until you merge into `master`.
-
-(If you are using GitHub, the last two sentences must make sense to you)
-{: .fs-2 }
-
-
-### Changing the theme
+### Changing the theme (locally)
 
 The default Jekyll theme, [Minima](https://github.com/jekyll/minima), is advertised as a _one size fits all_ theme, but it is mostly oriented towards blogs.
 As my personal webpage is not intended to be a blog (at the moment), I changed the theme.
@@ -237,29 +211,88 @@ search_exclude: true
 ### Customize the theme
 
 Now that we are using a theme, we may want to customize it, so that it does not look exactly like the original.
-To do so, we need to get access to certain special folders.
+To do so, we need to tweak files into certain special folders.
 Notable such folders carry the names `_includes`, `_layouts` and `_sass`.
 Given the instructions in [First Setup](#first-setup), we do not have those folders in our root folder.
 We need to find them and copy them over.
 Once they're copied, we can modify the copies to override certain defaults (e.g., the color of the hyperlinks).
-We can locate where these folders are by running
+
+If the theme of your choice is well documented, it will tell you what to do.
+In the case of Just the Docs, see [this page](https://pmarsceill.github.io/just-the-docs/docs/customization/) to know what to do from this point on.
+In particular, the documentation mentions the file `./sass/custom/custom.scss`.
+This file is in the folder where all Ruby gems are stored.
+
+We can locate the required files by running
 
 ```bash
 $ bundle show just-the-docs
 ```
 
 Call the result of such command `<that-folder>`.
-Then, we can copy the folders over
+Then, we can copy the files we need over
 
 ```bash
-$ cp <that-folder>/_includes ./_includes -r
-$ cp <that-folder>/_layouts ./_layouts -r
-$ cp <that-folder>/_sass ./_sass -r
+$ cp <that-folder>/_sass/custom/custom.scss ./_sass/custom/custom.css
 ```
 
-The command `cp` copies the files and is a Unix/Linux command (meaning you have it on macOS).
-You can learn more about that command [here](http://man7.org/linux/man-pages/man1/cp.1.html).
-Now we can modify the contents of these three folders (the ones in the root folder of your website, not the ones in `<that-folder>`!) to override default theme settings.
+Now we can modify the contents of this file (the one in the root folder of your website, not the one in `<that-folder>`!) to override default theme settings.
 
-If the theme of your choice is well documented, it will tell you what to do.
-In the case of Just the Docs, see [this page](https://pmarsceill.github.io/just-the-docs/docs/customization/) to know what to do from this point on.
+You can learn more about the `cp` command [here](http://man7.org/linux/man-pages/man1/cp.1.html).
+{: fs-2 }
+
+
+### Making sure GitHub Pages will work once the site goes live
+
+So far all we did was ensuring we can build the website locally.
+However, we want the website to go live publicly.
+Here I assume we use GitHub as host for our website.
+
+GitHub is strict about the use of Jekyll.
+In particular, [non-default plugins are forbidden](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins) and un[supported themes](https://pages.github.com/themes/) are not trivial to use.
+
+The default Gemfile that was created with `jekyll new` contains the following comment:
+
+```bash
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+```
+
+Do as it says.
+
+Finally, we need to point GitHub to the files required for the Just the Docs theme.
+To do so, we open the `_config.yml` file and we replace the line
+
+```
+theme: "just-the-docs"
+```
+
+with
+
+```
+remote_theme: pmarsceill/just-the-docs
+```
+
+> **Note:** with this change, the command `bundle exec jekyll serve` will no longer use local files to build previews of your website. The theme will have to be downloaded every time you run that command. This means that your preview may not work properly if your computer is not connected to the internet. A way to circumvent this is to undo the last change to `_config.yml` and work locally until an internet connection is established again.
+
+
+### Uploading the website to GitHub, for publication
+
+To publish the website using GitHub Pages, you need to create a repository at [github.com](https://github.com).
+If you do not have a custom domain yet, and want your website to appear automatically, then the repository you create must have the name `[username].github.io`, which will also be the URL at which your website will be found.
+Once you have the repository, move all files created by Jekyll above into the git repository.
+As soon as you push the new files to GitHub, GitHub will start building your website.
+It will be publicly available at `[username].github.io` after few minutes.
+GitHub will only build using the files in the `master` branch.
+If you push updates to your code in another branch, then GitHub will ignore them until you merge into `master`.
+
+(If you are using GitHub, the last two sentences must make sense to you)
+{: .fs-2 }
+
+
+### Making sure that GitHub will render and publish
+
+If there are problems with your build, GitHub will normally send you an email about the build status.
+You will receive an email in case of errors and/or warnings.
+If everything goes well, the you will see a green checkmark in the blue box above your files at the online repository.
+
+![Build successful](../assets/img/gh-pages-checkmark.png)
