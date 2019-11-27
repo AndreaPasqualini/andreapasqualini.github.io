@@ -20,7 +20,7 @@ There is a whole spectrum of hosting solutions to choose from.
 Such spectrum is characterized by the technical difficulty in setting up and managing your website.
 But it also ranges in terms of flexibility you get, such as getting the design you prefer.
 
-On the easy (but not very flexible) side we have options such as Google Sites and Squarespace.
+On the easy (but not very flexible) side we have options such as [Google Sites](https://sites.google.com/), [WordPress](https://wordpress.com/) and [Squarespace](https://www.squarespace.com/).
 These are easy-to-set-up hosting solutions, meaning that those companies will provide the hardware where your website will be stored.
 They will not expose the folder structure of the website to you, so you will not directly work on the files that constitute the website.
 Rather, they will provide an easy interface to build your website, typically with a point-and-click interface.
@@ -54,7 +54,8 @@ Prices vary, but it is common to see them ranging from 8 to 20 EUR yearly.
 
 ## The gist of it
 
-To create a new website from scratch, execute the following from a terminal:
+Make sure to have [Ruby](https://www.ruby-lang.org/) installed, together with the gems [Bundler](https://bundler.io/) and [Jekyll](https://jekyllrb.com/).
+Then, to create a new website from scratch, execute the following from a terminal:
 
 ```bash
 $ jekyll new new_website    # creates folder "new_website"
@@ -88,11 +89,14 @@ In this case, install the [Windows Subsystem for Linux](https://docs.microsoft.c
 
 ### Operating environment
 
-The following requires [Ruby](https://www.ruby-lang.org/en/), [Bundler](https://bundler.io/) and [Jekyll](https://jekyllrb.com/).
+The following requires [Ruby](https://www.ruby-lang.org/), [Bundler](https://bundler.io/) and [Jekyll](https://jekyllrb.com/).
 Both Bundler and Jekyll are libraries written in the Ruby programming language.
 Ruby libraries are called Gems.
+Bundler takes care of ensuring that all required _dependencies_ are installed.
+This is necessary because, under the hood, [we are using many other Ruby gems](https://pages.github.com/versions/) and our computer needs to have them.
+Jekyll instead is the "engine" that translates a relatively simple folder structure with mostly [Markdown](https://daringfireball.net/projects/markdown/) files into a full fledged HTML website.
 We first need to install Ruby.
-Once we have Ruby, we can install Gems.
+Once we have Ruby, we can install gems.
 
 To install Ruby on an APT-based Linux distribution (e.g., Debian, Ubuntu), execute
 
@@ -144,7 +148,49 @@ The first relates to Bundler and keeps track of all Ruby requirements needed to 
 The second relates to Jekyll and contains some settings about the website.
 
 
-### Changing the theme (locally)
+### Ensure compatibility with GitHub Pages
+
+So far all we did was ensuring we can build the website locally.
+However, we want the website to go live publicly.
+Here I assume we use GitHub as host for our website.
+
+GitHub is strict about the use of Jekyll.
+In particular, [non-default plugins are forbidden](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins) and un[supported themes](https://pages.github.com/themes/) are not trivial to use.
+
+The default Gemfile that was created with `jekyll new` contains the following comment:
+
+```bash
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+```
+
+Do as it says.
+
+
+### Uploading the website to GitHub, for publication
+
+To publish the website using GitHub Pages, you need to create a repository at [github.com](https://github.com).
+If you do not have a custom domain yet, and want your website to appear automatically, then the repository you create must have the name `[username].github.io`, which will also be the URL at which your website will be found.
+Once you have the repository, move all files created by Jekyll above into the git repository.
+As soon as you push the new files to GitHub, GitHub will start building your website.
+It will be publicly available at `[username].github.io` after few minutes.
+GitHub will only build using the files in the `master` branch.
+If you push updates to your code in another branch, then GitHub will ignore them until you merge into `master`.
+
+(If you are using GitHub, the last two sentences must make sense to you)
+{: .fs-2 }
+
+
+### Making sure that GitHub will render and publish
+
+If there are problems with your build, GitHub will normally send you an email about the build status.
+You will receive an email in case of errors and/or warnings.
+If everything goes well, you will not receive an email, but you will see a green checkmark in the blue box above your files at the online repository.
+
+![Build successful](../assets/img/gh-pages-checkmark.png)
+
+
+## Changing the theme
 
 The default Jekyll theme, [Minima](https://github.com/jekyll/minima), is advertised as a _one size fits all_ theme, but it is mostly oriented towards blogs.
 As my personal webpage is not intended to be a blog (at the moment), I changed the theme.
@@ -184,9 +230,22 @@ with
 theme: "just-the-docs"
 ```
 
-Once you rebuild the site with `bundle exec jekyll serve`, the website will adopt the new theme.
+Once you rebuild the site with `bundle exec jekyll serve`, the local copy of website will adopt the new theme.
 
-> **Note:** every time you change a file in the website folder, Bundler will automatically rebuild the website locally (you will see this happening in your terminal) for you to verify your changes if you refresh the browser window. However, this cannot happen when you change the `_config.yml` file for technical reasons. To see the changes to `_config.yml`, you need to terminate Jekyll in the terminal and relaunch it.
+> **Note:** every time you change a file in the website folder, Jekyll will automatically rebuild the website locally (you will see this happening in your terminal) for you to verify your changes if you refresh the browser window. However, this cannot happen when you change the `_config.yml` file for technical reasons. To see the changes to `_config.yml`, you need to terminate Jekyll in the terminal and relaunch it.
+
+> **Note:** With the changes above, only the local website will correctly use the new theme. When you push your work to GitHub, you need to tell GitHub how to find the theme you want. For this reason, it is best to stick to a Jekyll theme that is stored in a GitHub repo, so GitHub will automatically know what to do with it. To point GitHub to the files required for the Just the Docs theme. we open the `_config.yml` file and we replace the line
+>
+> ```
+> theme: "just-the-docs"
+> ```
+>
+> with
+>
+> ```
+> remote_theme: pmarsceill/just-the-docs
+> ```
+> With this change, the command `bundle exec jekyll serve` will no longer use local files to build previews of your website. The theme will have to be downloaded every time you run that command. This means that your preview may not work properly if your computer is not connected to the internet. A way to circumvent this is to undo the last change to `_config.yml` and work locally until an internet connection is established again.
 
 At this stage, there is one thing not working.
 The Just the Docs theme has a search bar at the top of each page.
@@ -241,58 +300,86 @@ You can learn more about the `cp` command [here](http://man7.org/linux/man-pages
 {: fs-2 }
 
 
-### Making sure GitHub Pages will work once the site goes live
+#### Changing fonts
 
-So far all we did was ensuring we can build the website locally.
-However, we want the website to go live publicly.
-Here I assume we use GitHub as host for our website.
+While the theme of your choice will (should) explain how to change some things, such as the color of hyperlinks and the background color, there is one thing we may want to change that is not easily documented in the theme: fonts.
 
-GitHub is strict about the use of Jekyll.
-In particular, [non-default plugins are forbidden](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins) and un[supported themes](https://pages.github.com/themes/) are not trivial to use.
+Fonts are an incredibly complicated matter.
+Clearly there is an element of personal taste.
+But there is also an objective issue related to font rendering.
 
-The default Gemfile that was created with `jekyll new` contains the following comment:
+The vast majority of computers run on Windows, which has a set of default fonts pre-installed.
+Apple includes in macOS other fonts.
+Linux distributions also have yet different fonts.
+Finding a font that lies in the intersection of pre-installed fonts across Operating Systems is near impossible, because such intersection is either empty or of near-zero measure (and I did not even mention mobile devices).
 
-```bash
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
+Adding to this, each OS renders fonts in different ways.
+Windows uses [ClearType](https://en.wikipedia.org/wiki/ClearType), which applies aggressive [font hinting](https://en.wikipedia.org/wiki/Font_hinting) to fit each [glyph](https://en.wikipedia.org/wiki/Glyph) to the arrays of subpixels in our screens.
+This is the reason for which geometric fonts typically display better on Windows, while other less boring fonts do not display as intended by the designer.
+macOS instead [refuses](https://www.howtogeek.com/358596/how-to-fix-blurry-fonts-on-macos-mojave-with-subpixel-antialiasing/) to hint fonts altogether.
+Font rendering in Linux is [all over the place](https://pandasauce.org/post/linux-fonts/).
+Related to this, screens are of different resolutions and sizes, amounting to different pixels densities.
+
+Consider the two following screenshots.
+
+<img src="../assets/img/clear_type_lores.png" alt="Low resolution ClearType rendering" style="width:45%">
+<img src="../assets/img/clear_type_hires.png" alt="High resolution ClearType rendering" style="width:45%">
+
+These have been taken from the same Windows machine and the same screen, just at different zoom levels.
+The different zoom levels approximate the difference between a low pixel density and a high pixel density screen.
+Comparing the screenshots, we see that at low resolutions Windows prefers legibility of the font at the expense of the design of the font.
+macOS instead will preserve the design of the font, at the expense of legibility (see [here](https://pandasauce.org/post/linux-fonts/) for proof).
+
+All this is to say that what looks good on _your_ screen does not necessarily look good in the screens of your audience.
+Choosing a font for your website is objectively difficult precisely for this reason.
+
+_"Alright, but how do I do it?"_
+The main technical concern here is that not all devices will have a local copy of the font you choose, so we need to use a remote web font.
+[Google Fonts](https://fonts.google.com/) is a good choice for this.
+Go there and find a font that you like.
+My choice is on [Fira Sans](https://en.wikipedia.org/wiki/Fira_Sans), a font commissioned by Mozilla for their ([DOA](https://en.wikipedia.org/wiki/Dead_on_arrival)) [Firefox OS](https://en.wikipedia.org/wiki/Firefox_OS).
+Once we select the font we want, Google will tell us how to use it in our website.
+There are two steps: _embedding_ and _using_.
+For embedding, Google will provide a line like this one
+
+```html
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 ```
 
-Do as it says.
+For using, Google will tell us to specify the following in a CSS stylesheet
 
-Finally, we need to point GitHub to the files required for the Just the Docs theme.
-To do so, we open the `_config.yml` file and we replace the line
-
-```
-theme: "just-the-docs"
+```css
+font-family: 'Fira Sans'
 ```
 
-with
+In the Just the Docs theme we can use a special file.
+This is `/_includes/head_custom.html`.
+Here we can put all pure HTML code that will be included in the [`<head>`](https://www.w3schools.com/html/html_head.asp) section of your website.
+This is the place where we put the first line Google gives us, the one with the `<link>` tag.
+Finally, we tell the website to use the theme.
+The file `/_sass/custom/custom.scss` gives us a way to do it.
+Originally, it has a line
 
+```scss
+//$body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
 ```
-remote_theme: pmarsceill/just-the-docs
+
+which we replace with
+
+```scss
+$body-font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
 ```
 
-> **Note:** with this change, the command `bundle exec jekyll serve` will no longer use local files to build previews of your website. The theme will have to be downloaded every time you run that command. This means that your preview may not work properly if your computer is not connected to the internet. A way to circumvent this is to undo the last change to `_config.yml` and work locally until an internet connection is established again.
+Now, our website will pull the Fira Sans font from Google Fonts and then will use it everywhere in the site.
+You do not need to worry about devices that do not have local copies of the font, because we are using a remote copy of it.
 
 
-### Uploading the website to GitHub, for publication
+## Conclusion
 
-To publish the website using GitHub Pages, you need to create a repository at [github.com](https://github.com).
-If you do not have a custom domain yet, and want your website to appear automatically, then the repository you create must have the name `[username].github.io`, which will also be the URL at which your website will be found.
-Once you have the repository, move all files created by Jekyll above into the git repository.
-As soon as you push the new files to GitHub, GitHub will start building your website.
-It will be publicly available at `[username].github.io` after few minutes.
-GitHub will only build using the files in the `master` branch.
-If you push updates to your code in another branch, then GitHub will ignore them until you merge into `master`.
+Here I took my own notes on how to build a website and polished them a little bit (not too much, my regressions are waiting for me).
+Building a website with Jekyll for publication through GitHub Pages requires a bit of technical knowledge about HTML and (you know) Jekyll, but it is far easier than building the whole website from scratch only using HTML/CSS.
+The bonus is flexibility: if you know how to do what you want, you can get it and GitHub will comply (I'm looking at you, Google Sites).
+I hope these guidelines will be useful to somebody.
 
-(If you are using GitHub, the last two sentences must make sense to you)
-{: .fs-2 }
-
-
-### Making sure that GitHub will render and publish
-
-If there are problems with your build, GitHub will normally send you an email about the build status.
-You will receive an email in case of errors and/or warnings.
-If everything goes well, the you will see a green checkmark in the blue box above your files at the online repository.
-
-![Build successful](../assets/img/gh-pages-checkmark.png)
+If you want to send feedback, ask for clarification or directly improve this webpage, open an issue or a pull request on the [repository](https://github.com/apsql/apsql.github.io/)!
+{: .fs-2}
