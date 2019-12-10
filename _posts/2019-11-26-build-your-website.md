@@ -190,6 +190,88 @@ If everything goes well, you will not receive an email, but you will see a green
 ![Build successful](../assets/img/gh-pages-checkmark.png)
 
 
+## Adding pages and content
+
+So far the directory structure of your website will look like the following
+
+```
+./
+├── 404.html
+├── about.markdown
+├── _config.yml
+├── Gemfile
+├── Gemfile.lock
+├── index.markdown
+└── _posts
+    └── 2019-12-10-welcome-to-jekyll.markdown
+```
+
+The content of your webpages will be included in [Markdown](https://en.wikipedia.org/wiki/Markdown) files, which is a stripped down version of HTML.
+For instructions on how to write Markdown syntax, see [here](https://daringfireball.net/projects/markdown/syntax).
+Markdown files have either `.markdown` or `.md` as extension.
+To see an example, see [the file where this current content is written](https://raw.githubusercontent.com/apsql/apsql.github.io/master/_posts/2019-11-26-build-your-website.md).
+
+To add a new page to your website, create a new Markdown file.
+In this new file, add the following text.
+
+```markdown
+---
+layout: page
+title: Research
+permalink: /research/
+---
+```
+
+This text says the following:
+
+- the visual layout will be "page" (defined in `./_layouts/page.html`)
+- the page title will be "Research" (displayed in the browser tab and at the top of the page itself, if the theme allows that)
+- the webpage will be accessible with the URL `your.website.com/research/`)
+
+The folder `_layouts` will not be present in your website folder as it is.
+Instead, it will be present in the default directory of the theme Jekyll uses.
+To show where such folder is, run
+
+```bash
+bundle show minima
+```
+
+After the triple hyphen `---`, you can start writing the content of your page.
+Use [Markdown syntax](https://daringfireball.net/projects/markdown/syntax) to write content.
+Coming from LaTeX, it will be familiar.
+
+Finally, we need to make your website aware of the new page.
+This is not necessary if you put the files of your pages in the root folder of your website.
+Instead, if you put all files in a dedicated subfolder (like `_pages` in my case), then you need to modify the file `_config.yml`.
+It may already contain the line
+
+```yaml
+include: ["_posts"]
+```
+
+You may want to change it with
+
+```yaml
+include: ["_pages", "_posts"]
+```
+
+This way Jekyll will look at the contents of the folders specified with `include` when building the website.
+
+There is one final thing to consider.
+The _landing page_ of your website will _always_ be the file `index.markdown`.
+You cannot change the name of the file (i.e., `index`) because this is a standard.
+You can inspect its contents: it will be
+
+```markdown
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+```
+
+
 ## Changing the theme
 
 The default Jekyll theme, [Minima](https://github.com/jekyll/minima), is advertised as a _one size fits all_ theme, but it is mostly oriented towards blogs.
