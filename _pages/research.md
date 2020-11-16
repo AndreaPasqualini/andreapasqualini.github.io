@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-nav_order: 2
+nav_order: 3
 ---
 
 # Research
@@ -10,20 +10,46 @@ nav_order: 2
 
 ## Job market paper
 
-_coming soon_
+[**Markups, Markdowns and Bankrupcty in the Banking Industry**](/jmp.pdf)
+
+I develop a new structural approach for the joint estimation of markups on lending rates and markdowns on deposit rates for all US depository institutions between 1992 and 2019.
+Markups (markdowns) are wedges between the observed price for the output (input) good and the price that would realize if the bank was a price taker on that market.
+Gross markups have been generally decreasing over time with some procyclical variation, with an average value of 2.
+Gross markdowns do not display a trend, but feature strong countercyclical variation.
+When the economy is at the zero lower bound, the average gross markdown is 1.5.
+The Herfindahl-Hirschman Index and the Boone indicator are significantly different measures.
+I show that higher markups are associated with a lower bankruptcy probability, which is in contrast with previously known results.
+Instead, markdowns correlate positively with default probabilities.
+When considered jointly, markups and markdowns both correlate negatively with the probability of bankruptcy.
 
 
 ## Working papers
 
-_coming soon_
+**The Drivers of EU Unemployment during the Great Recession** (_joint with D. Comin, R. Franceschin and A. Trigari_)
+
+We explore the role of Stochastic Discount Factors (SDF) in explaining variation in European unemployment.
+We write a standard Diamond-Mortensen-Pissarides (DMP) labor market model where we allow for an exogenous, time-varying SDF.
+We externally estimate SDF shocks using data on government bond yields and stock market returns.
+We calibrate the model to four European countries (Germany, France, Spain and Italy) individually and we feed the model with the externally estimated SDF and productivity shocks.
+We present three findings.
+First, in accordance with Hall (2017, AER), variation in the SDF has the potential to account for most of the variation in unemployment.
+Second, we find that differences in Labor Market Institutions (LMI), as captured by different country-specific calibrations, matter for explaining cross-country differences in unemployment.
+Finally, we observe that _timing_ of variation in unemployment caused by SDF shocks does not match the data.
+In particular, our counterfactuals anticipate observed variation by one to two quarters, depending on the country.
+Motivated by these findings, we augment the DMP model with Fixed-Term Contracts (FTC) and Open-Ended Contracts (OEC).
+Matches between workers and firms are heterogeneous because of match-specific productivities.
+Workers and firms only imperfectly observe the productivity, which they then learn as the match survives over time.
+In our model, workers and firms use FTCs because they provide an extended probationary period, while OECs provide stability to the match.
+OECs also differ from FTCs because of fixed firing costs.
+Our model endogenously supports the co-existence of these two contracts.
+We are currently calibrating the model to Italy.
+In doing so, we are paying particular attention to the wage distribution.
 
 
 ## Work in progress
 
-- Markups and Markdowns in the Banking Industry
-- The Drivers of EU Unemployment during the Great Recession (_joint with D. Comin, R. Franceschin and A. Trigari_)
+- Bank Heterogeneity, Market Power and Optimal Bank Size
 - An Introduction to GPU Computing for Economists _(joint with G. Battiston)_
-- The Nature and Drivers of Deposit Competition in the US Banking Industry
 
 
 ## Publications
