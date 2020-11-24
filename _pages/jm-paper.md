@@ -63,6 +63,5 @@ This contributes to the debated relationship between market power and financial 
 ![Markups on lending rates](/assets/img/jmp-slide-5.png)
 ![Markups on lending rates](/assets/img/jmp-slide-6.png)
 
-An added bonus from my paper is bank-level evidence of markups and markdowns.
-You can use it to calibrate a macroeconomic model with heterogenous banks.
+A bonus is you can use this bank-level evidence of markups and markdowns to calibrate a macroeconomic model with heterogenous banks.
 This is the starting point for my future research.
