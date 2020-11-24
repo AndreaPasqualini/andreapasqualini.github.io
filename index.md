@@ -18,6 +18,8 @@ I currently am on the Job Market for Economists!
 
 You can read more about me in the [About page](/_pages/about.md).
 
+[Job Market Paper](./_pages/jm-paper.md){: .btn .btn-purple }
+
 
 ## Contacts
 
