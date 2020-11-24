@@ -9,7 +9,7 @@ nav_order: 1
 I am Andrea Pasqualini, a PhD candidate in Economics at Bocconi University.
 {: .fs-6 .fw-300 }
 
-<img src="/assets/img/picture.jpg" align="right" alt="Profile picture" class="inline" width="50%">
+<img src="/assets/img/picture.jpg" align="right" alt="Profile picture" class="inline" style="width:50%;padding-left:5%;">
 
 My main research interests are in Financial Intermediation and Macroeconomics.
 I work on questions related to bank heterogeneity and bank market power, keeping an eye on policy-relevant questions such as monetary policy transmission and financial stability.
