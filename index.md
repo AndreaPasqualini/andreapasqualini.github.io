@@ -6,7 +6,7 @@ nav_order: 1
 
 # Welcome!
 
-I am Andrea Pasqualini, a PhD candidate in Economics and Finance at Bocconi University.
+I am Andrea Pasqualini, a PhD ~~candidate~~ candidate in Economics and Finance at Bocconi University.
 {: .fs-6 .fw-300 }
 
 <img src="/assets/img/picture.jpg" align="right" alt="Profile picture" class="inline" style="width:50%;padding-left:5%;">
@@ -19,6 +19,11 @@ I currently am on the Job Market for Economists!
 You can read more about me in the [About page](/_pages/about.md).
 
 [Job Market Paper](./_pages/jm-paper.md){: .btn .btn-purple }
+
+
+## News
+
+I have been awarded the PhD in Economics and Finance on 28 January 2021! 🎉
 
 
 ## Contacts
