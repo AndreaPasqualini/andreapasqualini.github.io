@@ -29,26 +29,4 @@ I have been awarded the PhD in Economics and Finance on 28 January 2021! 🎉
 
 ## Contacts
 
-Email: [andrea.pasqualini@phd.unibocconi.it](mailto:andrea.pasqualini@phd.unibocconi.it) <br>
-Phone (workplace): +39 02 5836 5275
-
-
-## References
-
-### [Basile Grassi](https://sites.google.com/site/grassibasile/) (main PhD advisor)
-
-Email: [basile.grassi@unibocconi.it](mailto:basile.grassi@unibocconi.it)
-
-
-### [Antonella Trigari](http://didattica.unibocconi.eu/mypage/index.php?IdUte=49233&cognome=TRIGARI&nome=ANTONELLA&urlBackMy=)
-
-Email: [antonella.trigari@unibocconi.it](mailto:antonella.trigari@unibocconi.it)
-
-### [Filippo De Marco](http://mypage.unibocconi.eu/filippodemarco/index.php?IdUte=182751&idr=25634&lingua=eng)
-
-Email: [filippo.demarco@unibocconi.it](mailto:filippo.demarco@unibocconi.it)
-
-
-### [Josef Sigurdsson](https://www.josefsigurdsson.com/)
-
-Email: [josef.sigurdsson@nhh.no](mailto:josef.sigurdsson@nhh.no)
+Email: [andrea.pasqualini@unibocconi.it](mailto:andrea.pasqualini@unibocconi.it)
