@@ -8,9 +8,9 @@ nav_order: 3
 # Research
 
 
-## Job market paper
+## Working papers
 
-[**Markups, Markdowns and Bankrupcty in the Banking Industry**](/jmp.pdf)
+[**Markups, Markdowns and Bankrupcty in the Banking Industry**](/jmp.pdf) (Job Market Paper)
 
 I develop a new structural approach for the joint estimation of markups on lending rates and markdowns on deposit rates for all US depository institutions between 1992 and 2019.
 Markups (markdowns) are wedges between the observed price for the output (input) good and the price that would realize if the bank was a price taker on that market.
@@ -22,8 +22,6 @@ I show that higher markups are associated with a lower bankruptcy probability, w
 Instead, markdowns correlate positively with default probabilities.
 When considered jointly, markups and markdowns both correlate negatively with the probability of bankruptcy.
 
-
-## Working papers
 
 **The Drivers of EU Unemployment during the Great Recession** (_joint with D. Comin, R. Franceschin and A. Trigari_)
 
